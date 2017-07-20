@@ -1,0 +1,314 @@
+* {
+	overflow: hidden;
+}
+@font-face {
+    font-family: ShortStack-Regular;
+    src: url('ShortStack-Regular.otf');
+}
+body {
+	background-image:url(img/background.jpg);
+    font-family: ShortStack-Regular;
+    line-height: 1.6;
+    font-size: 8px;
+}
+#typed {
+	font-family: ShortStack-Regular;
+	font-size: 12px;
+    color:black;
+    line-height: 1.6;
+    display: block;
+}
+h1 {
+	font-size: 20px;
+	margin-top: 250px;
+	color:black;
+}
+#end {
+    font-size: 30px;
+    color:rgb(97,148,152);
+}
+#baloon1 {
+	position: absolute;
+	top:-4px;
+    -webkit-animation: fly 15s infinite ease-in-out;
+    -moz-animation:    fly 15s infinite ease-in-out;
+    -o-animation:      fly 15s infinite ease-in-out;
+    -ms-transition:    fly 15s infinite ease-in-out; 
+    animation:         fly 15s infinite ease-in-out;
+}
+#baloon2 {
+	position: absolute;
+	top:-50px;
+	left:250px;
+    -webkit-animation: flyy 20s infinite ease-in-out;
+    -moz-animation:    flyy 20s infinite ease-in-out;
+    -o-animation:      flyy 20s infinite ease-in-out;
+    -ms-transition:    flyy 20s infinite ease-in-out; 
+    animation:         flyy 20s infinite ease-in-out;
+}
+#baloon3 {
+	position: absolute;
+	top:400px;
+	right:400px;
+    -webkit-animation: flyyy 30s infinite ease-in-out;
+    -moz-animation:    flyyy 30s infinite ease-in-out;
+    -o-animation:      flyyy 30s infinite ease-in-out;
+    -ms-transition:    flyyy 30s infinite ease-in-out; 
+    animation:         flyyy 30s infinite ease-in-out;
+}
+#baloon4 {
+	position: absolute;
+	top:600px;
+	right:100px;
+    -webkit-animation: flyyyy 25s infinite ease-in-out;
+    -moz-animation:    flyyyy 25s infinite ease-in-out;
+    -o-animation:      flyyyy 25s infinite ease-in-out;
+    -ms-transition:    flyyyy 25s infinite ease-in-out; 
+    animation:         flyyyy 25s infinite ease-in-out;
+}
+#baloon5 {
+	position: absolute;
+	left:470px;
+	top:650px;
+    -webkit-animation: flyyyyy 25s infinite ease-in-out;
+    -moz-animation:    flyyyyy 25s infinite ease-in-out;
+    -o-animation:      flyyyyy 25s infinite ease-in-out;
+    -ms-transition:    flyyyyy 25s infinite ease-in-out; 
+    animation:         flyyyyy 25s infinite ease-in-out;
+}
+#clouds {
+	position: absolute;
+	top:-100px;
+	left:50px;
+    -webkit-animation: cloud 100s infinite ease-in-out;
+    -moz-animation:    cloud 100s infinite ease-in-out;
+    -o-animation:      cloud 100s infinite ease-in-out;
+    -ms-transition:    cloud 100s infinite ease-in-out; 
+    animation:         cloud 100s infinite ease-in-out;
+}
+#envelope {
+	position: absolute;
+	top:350px;
+	left:635px;
+	width: 100px;
+    -webkit-animation:  rotate 1s infinite ease-in-out;
+    -moz-animation:     rotate 1s infinite ease-in-out;
+    -o-animation:       rotate 1s infinite ease-in-out;
+    -ms-transition:     rotate 1s infinite ease-in-out; 
+    animation:          rotate 1s infinite ease-in-out;
+}
+#ishee,#angat {
+	width: 200px;
+	height: 300px;
+	margin-bottom: 20px;
+	
+}
+#arrow {
+	width: 40px;
+	position: absolute;
+	right: 660px;
+	top:450px;
+	-webkit-animation:  up 1s infinite ease-in-out;
+    -moz-animation:     up 1s infinite ease-in-out;
+    -o-animation:       up 1s infinite ease-in-out;
+    -ms-transition:     up 1s infinite ease-in-out; 
+    animation:          up 1s infinite ease-in-out;
+}
+#read {
+	font-size: 20px;
+	color:black;
+	position: absolute;
+	left: 610px;
+	color:rgb(252,48,104);
+	top:520px;
+}
+@-webkit-keyframes fly {
+    0%{top:800px;}
+    100%{top:-250px;}
+}
+
+@-moz-keyframes fly {
+    0%{top:800px;}
+    100%{top:-250px;}
+}
+
+@-o-keyframes fly {
+    0%{top:800px;}
+    100%{top:-250px;}
+}
+
+@-ms-keyframes fly {
+    0%{top:800px;}
+    100%{top:-250px;}
+}
+
+@keyframes fly {
+    0%{top:800px;}
+    100%{top:-250px;}
+}
+
+@-webkit-keyframes flyy {
+    0%{top:700px;}
+    100%{top:-250px;}
+}
+
+@-moz-keyframes flyy {
+    0%{top:700px;}
+    100%{top:-250px;}
+}
+
+@-o-keyframes flyy {
+    0%{top:700px;}
+    100%{top:-250px;}
+}
+
+@-ms-keyframes flyy {
+    0%{top:700px;}
+    100%{top:-250px;}
+}
+
+@keyframes flyy {
+    0%{top:700px;}
+    100%{top:-250px;}
+}
+
+@-webkit-keyframes flyyy {
+    0%{top:650px;}
+    100%{top:-200px;}
+}
+
+@-moz-keyframes flyyy {
+    0%{top:650px;}
+    100%{top:-200px;}
+}
+
+@-o-keyframes flyyy {
+    0%{top:650px;}
+    100%{top:-200px;}
+}
+
+@-ms-keyframes flyyy {
+    0%{top:650px;}
+    100%{top:-200px;}
+}
+
+@keyframes flyyy {
+    0%{top:650px;}
+    100%{top:-200px;}
+}
+
+@-webkit-keyframes flyyyy {
+    0%{top:600px;}
+    100%{top:-350px;}
+}
+
+@-moz-keyframes flyyyy {
+    0%{top:600px;}
+    100%{top:-350px;}
+}
+
+@-o-keyframes flyyyy {
+    0%{top:600px;}
+    100%{top:-350px;}
+}
+
+@-ms-keyframes flyyyy {
+    0%{top:600px;}
+    100%{top:-350px;}
+}
+
+@keyframes flyyyy {
+    0%{top:600px;}
+    100%{top:-350px;}
+}
+
+@-webkit-keyframes flyyyyy {
+    0%{top:750px;}
+    100%{top:-370px;}
+}
+
+@-moz-keyframes flyyyyy {
+    0%{top:750px;}
+    100%{top:-370px;}
+}
+
+@-o-keyframes flyyyyy {
+    0%{top:750px;}
+    100%{top:-370px;}
+}
+
+@-ms-keyframes flyyyyy {
+    0%{top:750px;}
+    100%{top:-370px;}
+}
+
+@keyframes flyyyyy {
+    0%{top:750px;}
+    100%{top:-370px;}
+}
+
+@-webkit-keyframes cloud {
+    0%{left:-1300px;}
+    100%{left:1000px;}
+}
+
+@-moz-keyframes cloud {
+    0%{left:-1300px;}
+    100%{left:1000px;}
+}
+
+@-o-keyframes cloud {
+     0%{left:-1300px;}
+    100%{left:1000px;}
+}
+
+@-ms-keyframes cloud {
+    0%{left:-1300px;}
+    100%{left:1000px;}
+}
+
+@keyframes cloud {
+       0%{left:-1300px;}
+    100%{left:1000px;}
+}
+
+@-webkit-keyframes rotate {
+    0%{left:-1300px;}
+    100%{left:1000px;}
+}
+
+@-moz-keyframes rotate {
+    0%{left:-1300px;}
+    100%{left:1000px;}
+}
+
+@-o-keyframes rotate {
+     0%{left:-1300px;}
+    100%{left:1000px;}
+}
+
+@-ms-keyframes rotate {
+    0%{left:-1300px;}
+    100%{left:1000px;}
+}
+
+@keyframes rotate {
+       0%{transform:rotate(20deg);}
+       50%{transform:rotate(0deg);}
+    100%{transform:rotate(20deg);}
+}
+@keyframes up {
+	0%{top:450px;}
+	100%{top:460px;}
+}
+#let {
+   background-image: url(img/bond.jpg);
+   height: 1400px;
+   width: 600px;
+   padding-top: 50px;
+}
+video 
+{
+    width: 100%;
+    height: auto;
+}
